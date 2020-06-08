@@ -23,9 +23,11 @@ I think a lot about a lot of things and try not to [think at all](https://www.he
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
-I'm currently searching for opportunities to implement useful vertical AI projects and build a sustainable business. To that end, I will join [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020.
+I'm on the lookout for opportunities to implement useful vertical AI projects and build a sustainable business. To that end, I will join [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. Another opportunity that I'm on the lookout for is to go on a trek or a bagpacking trip.
 
-I work as a technology consultant at [Restat](https://restat.co/), where I'm a founding partner. In this role, I've worked with a diverse set of clients including academics and small Indian businesses. Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on my [blog](techandmortals.wordpress.com/) and Instagram.
+![chandrashila_peak](/assets/img/chandrashila_peak.jpg)
+
+I currently work as a technology consultant with [Restat](https://restat.co/), where I'm a founding partner. In this role, I've worked with a diverse set of clients including academics and small Indian businesses. Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on my [blog](techandmortals.wordpress.com/) and Instagram.
 
 I graduated from [National Institute of Technology, Surat](http://www.svnit.ac.in/) in 2016. During my time there, I successfully completed the [Google Summer of Code](https://summerofcode.withgoogle.com/) program twice. I still contribute to [open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) whenever possible. Some of my projects can be found [here](github.com/analyticalmonk).  
 In a pre-covid world, you could've found me stumbling about at conferences, occassionally blabbering on stage. This peculiar behaviour can also be traced back to my college days.
@@ -40,4 +42,4 @@ I've been interested in entrepreneurship and startups for a long time now. Since
 
 - Until December 2019, I worked as a senior data engineer with [Atlan](https://atlan.com/). Here, I was part of the team working on the company's core offering, an on-premise enterprise data management, and governance platform.
 
-If you have something interesting to talk about or think that I can help with something, drop a line via [mail](mailto:akashtndn@gmail.com) or [Twitter](https://twitter.com/AkashTandon).
+If you have something interesting to talk about or think that I can help with something, drop a line via [mail](mailto:akashtndn@gmail.com), [Twitter](https://twitter.com/AkashTandon) or [LinkedIn](https://www.linkedin.com/in/akashtandon/).
