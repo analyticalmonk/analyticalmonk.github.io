@@ -20,7 +20,7 @@ hide_description: true
 
 I'm a [twenty-something](https://www.urbandictionary.com/define.php?term=twenty-something) technologist trying to do some good.
 I think a lot about a lot of things and try not to [think at all](https://www.headspace.com/meditation-101/what-is-meditation) at times. My expertise lies in extracting value from messy data, developing software to drive automation and [researching things for no good reason](https://www.youtube.com/watch?v=lmTmGLzPVyM).  
-Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on my [blog](techandmortals.wordpress.com/) and Instagram.
+Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on my [blog](https://techandmortals.wordpress.com/) and Instagram.
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
@@ -30,7 +30,7 @@ I'm on the lookout for opportunities to implement useful vertical AI projects an
 
 I currently work as a technology consultant with [Restat](https://restat.co/), where I'm a founding partner. We've worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://play.google.com/store/apps/details?id=com.restat.bizassist&hl=en_IN) for small businesses.
 
-I graduated from [National Institute of Technology, Surat](http://www.svnit.ac.in/) in 2016. During my time there, I successfully completed the [Google Summer of Code](https://summerofcode.withgoogle.com/) program twice. I still contribute to [open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) whenever possible. Some of my projects can be found [here](github.com/analyticalmonk).  
+I graduated from [National Institute of Technology, Surat](http://www.svnit.ac.in/) in 2016. During my time there, I successfully completed the [Google Summer of Code](https://summerofcode.withgoogle.com/) program twice. I still contribute to [open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) whenever possible. Some of my projects can be found on [Github](https://github.com/analyticalmonk).  
 In a pre-covid world, you could've found me stumbling about at conferences, occassionally blabbering on stage. This peculiar behaviour can also be traced back to my college days.
 
 ![pycon_italy_talk](/assets/img/pycon_italy_talk.jpg)
