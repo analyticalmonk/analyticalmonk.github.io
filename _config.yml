@@ -49,9 +49,9 @@ author:
 menu:
   - title:             About
     url:               /about/
-  # - title:             Example
-  #   url:               /example/
   - title:             Blog
+    url:               /    
+  - title:             Old blog
     url:               https://techandmortals.wordpress.com
 
 # Add links to the footer.

@@ -9,9 +9,8 @@ title: About
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+      I'm a twenty-something technologist trying to do some good and have fun while I'm at it.  
+      
 # You can show the description on the page by deleting this line:
 hide_description: true
 
