@@ -4,7 +4,7 @@ title:      Technology in law - a 10,000 feet overview of legaltech
 description: >
   A high-level overview of Legal Tech.
 # image: /assets/img/blog/example-content-ii.jpg
-noindex: true
+# noindex: true
 # categories: [ai, data, marketresearch, legaltech, startups, business]
 # tags:       [ai, data, marketresearch, legaltech, startups, business]
 ---
