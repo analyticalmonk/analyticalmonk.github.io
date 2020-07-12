@@ -74,4 +74,8 @@ I hope the above comes off as an incentive for good work if you hadn't thought a
 
 ----
 
+Thanks to Ankita Mathur for reading drafts of this.
+
+----
+
 *Title image: "Launch" by mattfoster is licensed under CC BY-NC 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/2.0/*
