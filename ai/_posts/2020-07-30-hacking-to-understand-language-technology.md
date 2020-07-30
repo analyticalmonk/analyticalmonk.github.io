@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Hacking my way to understand the state of natural language technology
+title:      Understanding the state of natural language technology through a project-first approach
 description: >
   Blueprint to understand recent advances in natural language technology in a hands-on manner. Topics covered include transformers, language models (BERT, GPT-2), evaluation benchmarks, and conversational interfaces/chatbots.
 image: /assets/img/robotlab_writing_robot.jpg
@@ -113,6 +113,10 @@ RASA has laid out a concept of [5 levels of conversational AI](https://blog.rasa
 
 Language has been key to humanity's progress. Exploring it through the lens of emerging technologies is an interesting endeavour. I hope that the train of innovation will continue in a responsible manner.  
 If you want to have a discussion or share thoughts, feel free to reach out.
+
+----
+
+Follow the discussion on [Hacker News](https://news.ycombinator.com/item?id=23997870)
 
 ----
 
