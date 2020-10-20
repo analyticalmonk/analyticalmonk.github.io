@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      Technology in law - a 10,000 feet overview of legaltech
+comments:   true
 description: >
   A high-level overview of Legal Tech.
 # image: /assets/img/blog/example-content-ii.jpg

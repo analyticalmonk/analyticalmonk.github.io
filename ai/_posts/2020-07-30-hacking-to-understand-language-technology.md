@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      Understanding the state of natural language technology through a project-first approach
+comments:   true
 description: >
   Blueprint to understand recent advances in natural language technology in a hands-on manner. Topics covered include transformers, language models (BERT, GPT-2), evaluation benchmarks, and conversational interfaces/chatbots.
 image: /assets/img/robotlab_writing_robot.jpg

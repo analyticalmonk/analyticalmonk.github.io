@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      Gift of inspiration and its role in technology
+comments:   true
 description: >
   Musings about inspiration, its importance for technological progress and a call for action to inspire those around you.
 

@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      Frameworks and philosophy for thinking about a startup co-founder
+comments:   true
 description: >
   A guiding philosophy and collection of frameworks for thinking about a startup co-founder.
 
