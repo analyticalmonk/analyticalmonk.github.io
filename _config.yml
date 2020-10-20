@@ -53,6 +53,8 @@ menu:
     url:               /    
   - title:             Old blog
     url:               https://techandmortals.wordpress.com
+  - title:             Subscribe
+    url:               https://tinyletter.com/analyticalmonk
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
