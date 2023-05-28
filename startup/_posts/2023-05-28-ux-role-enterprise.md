@@ -43,3 +43,5 @@ Do people in certain roles tend to care more about their work on average? I don'
 My hypotheses are based on observations and experiences. More than being definite, it can open up interesting lines of thought. No matter who you are building for, user experience is becoming more important. It will be interesting to see the direction our software experiences take with the advent of AI too. It's an exciting time to build!
 
 _Thanks to Ankita Mathur for reading drafts of this post._
+
+__Hacker News thread for this post: https://news.ycombinator.com/item?id=36104092__
