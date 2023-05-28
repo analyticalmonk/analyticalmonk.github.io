@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Beyond Utility: The Role of User Experience in Enterprise Software
+title:      Beyond Utility - The Role of User Experience in Enterprise Software
 comments:   true
 description: >
     Frameworks to think about role of user experience when creating enterprise software
@@ -15,8 +15,8 @@ categories: [startup]
 I used to think that enterprise software can get by with average user experience. I don't believe that anymore. It depends a lot on the type of work the end-user does and extent of involvement of high-level stakeholders.
 
 Before moving further, let me clarify what I mean by enterprise and user experience here.
-"Enterprise software" refers to software which are used for business use-cases. Tools like Notion, GitHub or Figma which have enterprise versions but are frequently used outside of a workplace qualify too.  
-User experience refers to how a user feels when interacting with a system. It goes beyond utility. It includes the emotions of joy, empowerment and satisfaction.
+- "Enterprise software" refers to software which are used for business use-cases. Tools like Notion, GitHub or Figma which have enterprise versions but are frequently used outside of a workplace qualify too.
+- User experience refers to how a user feels when interacting with a system. It goes beyond utility. It includes the emotions of joy, empowerment and satisfaction.
 
 While writing this piece, I came across a [related blog post](https://calv.info/ux-doesnt-end-with-the-user) by Calvin French-Owen, Segment’s co-founder and ex-CTO. He differentiates B2B UX based on the sales motion (top-down or bottom-up). The UX will match the buyer (practitioner, executive), not the user. Observability takes precedence over UX in case of an executive. That makes a lot of sense.   
 I explore adjacent theories. My opinions are loosely held but I am trying to find something interesting.
