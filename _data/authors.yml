@@ -9,8 +9,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-      I'm a twenty-something technologist trying to do some good and have fun while I'm at it.
-      Check out my [about](/about) page for a more details.
+      I'm trying to have fun building things and do some good while I'm at it.
+      You can follow me on [Twitter](https://twitter.com/AkashTandon) as I continue to document my learnings and experiences.
+      Check out my [about](/about) page for more details.
 
   # This photo will be used in the about section.
   # picture:

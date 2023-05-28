@@ -40,8 +40,6 @@ Do people in certain roles tend to care more about their work on average? I don'
 
 ### In conclusion
 
-My hypotheses are based on observations and experiences. More than being definite, it can open up interesting lines of thought. What implications does one's role have for UX design?
-
-No matter who you are building for, user experience is becoming more important. It will be interesting to see the direction our software experiences take with the advent of AI too. It's an exciting time to build!
+My hypotheses are based on observations and experiences. More than being definite, it can open up interesting lines of thought. No matter who you are building for, user experience is becoming more important. It will be interesting to see the direction our software experiences take with the advent of AI too. It's an exciting time to build!
 
 _Thanks to Ankita Mathur for reading drafts of this post._

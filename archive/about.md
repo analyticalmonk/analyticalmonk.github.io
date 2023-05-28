@@ -9,7 +9,7 @@ title: About
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-      I'm a twenty-something technologist trying to do some good and have fun while I'm at it.  
+      I'm a technologist trying to have fun building things and do some good while I'm at it.
       
 # You can show the description on the page by deleting this line:
 hide_description: true
