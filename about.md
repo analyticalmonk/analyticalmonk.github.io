@@ -18,17 +18,20 @@ hide_description: true
 # image: /assets/img/blog/hydejack-8.png
 ---
 
-I'm a [twenty-something](https://www.urbandictionary.com/define.php?term=twenty-something) technologist trying to do some good.
 I think a lot about a lot of things and try not to [think at all](https://www.headspace.com/meditation-101/what-is-meditation) at times. My expertise lies in extracting value from messy data, developing software to drive automation and [researching things for no good reason](https://www.youtube.com/watch?v=lmTmGLzPVyM).  
-Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on my [blog](https://techandmortals.wordpress.com/) and Instagram.
+Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog and shit-post on [Twitter](https://twitter.com/akashtandon). Some of my older pieces can be be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram.
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
-I'm on the lookout for opportunities to implement useful vertical AI projects and build a sustainable business. To that end, I will join [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. Another opportunity that I'm on the lookout for is to go on a trek or a bagpacking trip.
+I'm the co-founder of [Looppanel](https://looppanel.com). Our software helps product and design teams record, organize and analyse user research interviews. I lead technology, and product delivery. I also do just about anything else that's required such as ops or finance. Recently, I have spent a lot of time working on our LLM-based AI notetaking feature.
+
+Before Looppanel, I had been a part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. I had also worked as a technology consultant with [Restat](https://restat.co/), where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://play.google.com/store/apps/details?id=com.restat.bizassist&hl=en_IN) for small businesses.
+
+
+I am a sucker for treks and bagpacking trips. I haven't been on one for almost 3 years now and hope to change that soon.
 
 ![chandrashila_peak](/assets/img/chandrashila_peak.jpg)
 
-I currently work as a technology consultant with [Restat](https://restat.co/), where I'm a founding partner. We've worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://play.google.com/store/apps/details?id=com.restat.bizassist&hl=en_IN) for small businesses.
 
 I graduated from [National Institute of Technology, Surat](http://www.svnit.ac.in/) in 2016. During my time there, I successfully completed the [Google Summer of Code](https://summerofcode.withgoogle.com/) program twice. I still contribute to [open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) whenever possible. Some of my projects can be found on [Github](https://github.com/analyticalmonk).  
 In a pre-covid world, you could've found me stumbling about at conferences, occassionally blabbering on stage. This peculiar behaviour can also be traced back to my college days.
@@ -43,4 +46,4 @@ I've been interested in entrepreneurship and startups for a long time now. Since
 
 - Until December 2019, I worked as a senior data engineer with [Atlan](https://atlan.com/). Here, I was part of the team working on the company's core offering, an on-premise enterprise data management, and governance platform.
 
-If you have something interesting to talk about or think that I can help with something, drop a line via [mail](mailto:akashtndn@gmail.com), [Twitter](https://twitter.com/AkashTandon) or [LinkedIn](https://www.linkedin.com/in/akashtandon/).
+If you have something interesting to talk about or think that I can help with something, drop a line via [mail](mailto:akashtndn@looppanel.com), [Twitter](https://twitter.com/AkashTandon) or [LinkedIn](https://www.linkedin.com/in/akashtandon/).
