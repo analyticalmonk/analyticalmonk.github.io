@@ -23,7 +23,7 @@ Before being enamored by technology, I'd aspired to be a full-time writer. I con
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
-I'm the co-founder of [Looppanel](https://looppanel.com). Our software helps product and design teams record, organize and analyse user research interviews. I lead technology, and product delivery. I also do just about anything else that's required such as ops or finance. Recently, I have spent a lot of time working on our LLM-based AI notetaking feature.
+I'm the co-founder of [Looppanel](https://looppanel.com). Our software helps product and design teams record, organize and analyse user research interviews. I lead technology, and product delivery. The latter includes product prioritization and managing sprints. I also do just about anything else that's required such as support, ops or finance. Recently, I have spent a lot of time working on our LLM-based AI notetaking feature.
 
 Before Looppanel, I had been a part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. I had also worked as a technology consultant with [Restat](https://restat.co/), where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://play.google.com/store/apps/details?id=com.restat.bizassist&hl=en_IN) for small businesses.
 

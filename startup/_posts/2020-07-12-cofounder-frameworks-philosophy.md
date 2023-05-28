@@ -12,7 +12,7 @@ categories: [startup]
 # tags:       [science, technology]
 ---
 
-*Note: In addition to experience as an early startup employee, the below content has been derived through learnings from [Ankur Warikoo](https://www.ankurwarikoo.com/about/)'s Future Founders conference and the [Entrepreneur First](https://www.joinef.com/) program.*
+*Note: In addition to experience as an early startup employee, the below content has been derived from my time at the [Entrepreneur First](https://www.joinef.com/) program.*
 
 We have all heard the stories. They met, they started up and they conquered. They are the co-founders.  
 There are a ton of variables at play in an entrepreneurial journey. These include the market, capital and good ol' luck. The market won't care about whether a startup team has been awake for days or not drawn a salary. The humans you work with will. Good co-founders and founding teams can help each other manage a startup's variability and chaos. Thinking deeply about who you want to work with is as important as anything else as an entrepreneur.
@@ -43,7 +43,7 @@ I am not qualified to comment on right or wrong answers. A relevant article in t
 
 If you plan to startup and don't have a college dormmate co-founder, you most likely have asked the above. Paraphrasing a founder friend, "if you want to stay healthy and not wear yourself out, do not go solo." That does make sense but there's more to it.
 
-Ankur Warikoo offers the below framework to think about this question.
+Below framework helps you think about this question.
 
 ![Co-founder control-skill matrix](/assets/img/cofounder_control_skill_matrix.jpeg)
 
@@ -58,7 +58,7 @@ This is the big question. What makes a good co-founder? There are couple of comm
 
 ### Weighing the skills, ideas and values
 
-Assess skills, ideas and values on an individual level. That is the core idea behind the below framework proposed by Ankur Warikoo.
+Assess skills, ideas and values on an individual level.
 
 - 'Skills' are self-explanatory.
 - 'Ideas' refers to the way of thinking and approaching problems. An example of contrasting approaches is an instinct to get shit done quickly versus thinking deeply first.
