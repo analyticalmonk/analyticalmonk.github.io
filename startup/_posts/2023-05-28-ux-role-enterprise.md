@@ -12,14 +12,14 @@ categories: [startup]
 # tags:       [science, technology]
 ---
 
-I used to think that enterprise software can get by with average UX (user experience). I don't believe that anymore. It depends a lot on the type of work the end-user does. The extent of involvement of managers and executives also plays a part.
+During the first 2-3 years of my career, I used to think that enterprise software can get by with average UX (user experience). I don't believe that anymore. It depends a lot on the type of work the end-user does. The extent of involvement of managers and executives also plays a part.
 
 Let me clarify what I mean by enterprise and user experience here.
 - "Enterprise software" refers to software which are used for business use-cases. Tools like Notion, GitHub or Figma which have enterprise versions but are frequently used outside of a workplace qualify too.
 - User experience refers to how a user feels when interacting with a system. It goes beyond utility. It includes the emotions of joy, empowerment and satisfaction.
 
 When thinking about this topic, I came across a <a href="https://calv.info/ux-doesnt-end-with-the-user" target="_blank">related blog post</a> by Calvin French-Owen, Segment’s co-founder and ex-CTO. He differentiates B2B UX based on the sales motion (top-down or bottom-up). The UX will match the buyer, not the end-user. If the practitioner is the end-user, UX and aesthetics matter significantly in the buying decision. Visibility and reporting takes precedence over UX for an executive. That makes a lot of sense.   
-I explore adjacent theories. My opinions are loosely held but I am trying to find something interesting.
+I explore adjacent theories. My opinions are loosely held and I believe there's something interesting as well as useful to be found along this line of thought.
 
 ### UX, sales motion and type of work
 

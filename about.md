@@ -28,7 +28,7 @@ I'm the co-founder of [Looppanel](https://looppanel.com). Our software helps pro
 Before Looppanel, I had been a part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. I had also worked as a technology consultant with [Restat](https://restat.co/), where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://play.google.com/store/apps/details?id=com.restat.bizassist&hl=en_IN) for small businesses.
 
 
-I am a sucker for treks and bagpacking trips. I haven't been on one for almost 3 years now and hope to change that soon.
+I am a sucker for treks and bagpacking trips. I haven't been on a trek for almost 3 years now and hope to change that soon. I last went to the mountains to stay at a beautiful Airbnb homestay in the scenic town of Bir in July 2023. 
 
 ![chandrashila_peak](/assets/img/chandrashila_peak.jpg)
 
