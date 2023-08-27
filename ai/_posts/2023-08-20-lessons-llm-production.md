@@ -36,7 +36,7 @@ What interface do they need then? I don’t know. That’s for you to figure out
 __Note: Here’s what we have built at [Looppanel](https://www.looppanel.com?ref=akashtandon.in). We don’t allow our users to talk with their interview transcripts. Not yet anyway.
 Instead, we provide them with meaningful interview notes tied to evidence (transcript text and timestamp) and their inputs (themes and questions). [Hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) isn’t an option when your job is to find out the truth.__
 
-
+![Looppanel AI notes](/assets/img/ai_note_demo_screenshot.png)
 
 **Lesson 2: You don’t need to know everything**
 
