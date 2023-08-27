@@ -19,7 +19,7 @@ _Note: As hard as it may be for you to believe, the above introduction was writt
 
 **Outline**
 1. Chat isn’t always the answer
-2. You don’t need to know everything
+2. You don’t need to know everything  
    a. It doesn’t hurt to know a bit more than you need
 3. Tinker
 4. Open source is your friend but APIs are not your enemy
