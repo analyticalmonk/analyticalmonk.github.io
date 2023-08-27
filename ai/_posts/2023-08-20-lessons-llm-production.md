@@ -33,8 +33,8 @@ Chat can be great because it’s flexible. For a lot of use-cases, it’s not gr
 
 What interface do they need then? I don’t know. That’s for you to figure out by [talking with them](https://www.momtestbook.com?ref=akashtandon.in). I can only provide great lessons, not answers.
 
-__Note: Here’s what we have built at [Looppanel](https://www.looppanel.com?ref=akashtandon.in). We don’t allow our users to talk with their interview transcripts. Not yet anyway.
-Instead, we provide them with meaningful interview notes tied to evidence (transcript text and timestamp) and their inputs (themes and questions). [Hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) isn’t an option when your job is to find out the truth.__
+_Note: Here’s what we have built at [Looppanel](https://www.looppanel.com?ref=akashtandon.in). We don’t allow our users to talk with their interview transcripts. Not yet anyway.
+Instead, we provide them with meaningful interview notes tied to evidence (transcript text and timestamp) and their inputs (themes and questions). [Hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)) isn’t an option when your job is to find out the truth._
 
 ![Looppanel AI notes](/assets/img/ai_note_demo_screenshot.png)
 
