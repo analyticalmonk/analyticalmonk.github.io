@@ -5,7 +5,7 @@ comments:   true
 description: >
     Lessons that can help you when using large language models (LLMs) in a software production environment
 
-image: /
+image: /assets/thinker_pixel_art.png
 # noindex: true
 
 categories: [ai]
