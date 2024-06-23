@@ -49,11 +49,8 @@ Summaries of text documents are seen as a commodity at this point. I am fascinat
 
 This is something we learnt after releasing a beta version. The beta users would fixate on the language of notes and ignore everything else. We iterated multiple times on relevant prompts used to create the summary by experimenting with the length, tone, etc.
 
-In hindsight, I would've leveraged domain expertise earlier and a lot more for this part. That's the approach we ended up taking for similar problem statements since then.
+In hindsight, I would've leveraged domain expertise earlier and a lot more to finalize the prompts used to generate the note text that a user read. That's the approach we ended up taking for similar problem statements since then.
 
 ## Wrapping up
 
-LLMs are evolving rapidly and so is the ecosystem and user expectations around them. When building an LLM-powered product, technology can play an even bigger role than has been the norm in the last decade or so. Hence, it gets easier to ignore the user experience more than usual too. However, building something that actually works involves maintaining a fine balance between the technology and UX. 
-
-
-
+LLMs are evolving rapidly and so is the ecosystem and user expectations around them. When building an LLM-powered product, technology can play an even bigger role than has been the norm in the last decade or so. Hence, it gets easier to ignore the user experience when working on an AI product more than usual. However, building something that actually works involves maintaining a fine balance between the technology and UX.
