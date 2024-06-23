@@ -18,17 +18,18 @@ hide_description: true
 # image: /assets/img/blog/hydejack-8.png
 ---
 
-I think a lot about a lot of things and try not to [think at all](https://www.headspace.com/meditation-101/what-is-meditation) at times. My expertise lies in extracting value from messy data, developing software to drive automation and [researching things for no good reason](https://www.youtube.com/watch?v=lmTmGLzPVyM).  
-Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog and shit-post on [Twitter](https://twitter.com/akashtandon). Some of my older pieces can be be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram.
+I think a lot about a lot of things and try not to [think at all](https://www.headspace.com/meditation-101/what-is-meditation) at times. My expertise lies in extracting value from messy data, developing software to drive automation (with or without AI/LLMs), building software products from scratch and [researching things for no good reason](https://www.youtube.com/watch?v=lmTmGLzPVyM).
+
+Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog and shit-post on [Twitter](https://twitter.com/akashtandon). Some of my older pieces can be be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram. Recently, I have started reading a lot of short stories so feel free to share recommendations.
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
-I'm the co-founder of [Looppanel](https://looppanel.com). Our software helps product and design teams record, organize and analyse user research interviews. I lead technology, and product delivery. The latter includes product prioritization and managing sprints. I also do just about anything else that's required such as support, ops or finance. Recently, I have spent a lot of time working on our LLM-based AI notetaking feature.
+I'm the co-founder of [Looppanel](https://looppanel.com). Our software helps product and design teams record, organize and analyse user research data (user interviews, usability tests, surveys). I lead technology, and product delivery. The latter includes product prioritization and managing sprints. I also do just about anything else that's required such as support, ops or finance.
 
 Before Looppanel, I had been a part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. I had also worked as a technology consultant with [Restat](https://restat.co/), where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://play.google.com/store/apps/details?id=com.restat.bizassist&hl=en_IN) for small businesses.
 
 
-I am a sucker for treks and bagpacking trips. I haven't been on a trek for almost 3 years now and hope to change that soon. I last went to the mountains to stay at a beautiful Airbnb homestay in the scenic town of Bir in July 2023. 
+I am a sucker for treks and bagpacking trips. I haven't been on a trek for almost 3 years now and hope to change that soon. I last went to the mountains to stay at a beautiful Airbnb homestay in the scenic town of Landour in December 2023.
 
 ![chandrashila_peak](/assets/img/chandrashila_peak.jpg)
 
