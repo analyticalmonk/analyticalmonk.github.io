@@ -18,18 +18,18 @@ hide_description: true
 # image: /assets/img/blog/hydejack-8.png
 ---
 
-I think a lot about a lot of things and try not to [think at all](https://www.headspace.com/meditation-101/what-is-meditation) at times. My expertise lies in extracting value from messy data, developing software to drive automation (with or without AI/LLMs), building software products from scratch and [researching things for no good reason](https://www.youtube.com/watch?v=lmTmGLzPVyM).
+I think a lot about a lot of things and try not to [think at all](https://www.headspace.com/meditation-101/what-is-meditation) at times. I build AI systems that operate on messy, real-world data - the kind that doesn't fit neatly into a demo. My expertise lies in shipping LLM-powered features into production, building software products from scratch and [researching things for no good reason](https://www.youtube.com/watch?v=lmTmGLzPVyM).
 
-Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog and shit-post on [Twitter](https://twitter.com/akashtandon). Some of my older pieces can be be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram. Recently, I have started reading a lot of short stories so feel free to share recommendations.
+Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog - mostly about AI progress, shipping AI features in production, and founder lessons - and shit-post on [X](https://x.com/AkashTandon). Some of my older pieces can be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram. These days I read a lot of philosophy when I'm not running long distances or in the gym.
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
-I'm the co-founder of [Looppanel](https://looppanel.com). Our software helps product and design teams record, organize and analyse user research data (user interviews, usability tests, surveys). I lead technology, and product delivery. The latter includes product prioritization and managing sprints. I also do just about anything else that's required such as support, ops or finance.
+I'm the co-founder of [Looppanel](https://looppanel.com), an AI-powered UX research analysis platform. We help product and design teams turn unstructured research data - interview recordings, transcripts, surveys, documents - into structured, defensible insights. I lead product and technical direction, which on any given day means anything from designing LLM analysis pipelines to doing support, ops or finance. Startup life.
 
-Before Looppanel, I had been a part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. I had also worked as a technology consultant with a consulting firm called Restat, where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://github.com/TallyAssist/TallyAssist) for small businesses.
+Before Looppanel, I was part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. Before that, I worked as a technology consultant with a consulting firm called Restat, where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://github.com/TallyAssist/TallyAssist) for small businesses.
 
 
-I am a sucker for treks and bagpacking trips. Here's a photograph I clicked after an exhilarating trek to [Chandrashila](https://en.wikipedia.org/wiki/Chandrashila) peak in Uttarakhand, India.
+I am a sucker for treks and backpacking trips. Here's a photograph I clicked after an exhilarating trek to [Chandrashila](https://en.wikipedia.org/wiki/Chandrashila) peak in Uttarakhand, India.
 
 ![chandrashila_peak](/assets/img/chandrashila_peak.jpg)
 
@@ -47,4 +47,4 @@ I've been interested in entrepreneurship and startups for a long time now. Since
 
 - Until December 2019, I worked as a senior data engineer with [Atlan](https://atlan.com/). Here, I was part of the team working on the company's core offering, an on-premise enterprise data management, and governance platform.
 
-If you have something interesting to talk about or think that I can help with something, drop a line via [mail](mailto:akashtndn@looppanel.com), [Twitter](https://twitter.com/AkashTandon) or [LinkedIn](https://www.linkedin.com/in/akashtandon/).
+If you're building something ambitious and technically grounded - especially around AI systems, agent architectures or enterprise AI - I'd like to hear about it. Drop a line via [mail](mailto:akashtndn@gmail.com), [X](https://x.com/AkashTandon) or [LinkedIn](https://www.linkedin.com/in/akashtandon/).

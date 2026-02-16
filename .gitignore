@@ -40,3 +40,6 @@ _site
 # Bundler
 /.bundle
 /vendor/bundle
+
+# Claude
+CLAUDE.md
