@@ -20,7 +20,9 @@ hide_description: true
 
 I think a lot about a lot of things and try not to [think at all](https://www.headspace.com/meditation-101/what-is-meditation) at times. I build AI systems that operate on messy, real-world data - the kind that doesn't fit neatly into a demo. My expertise lies in shipping LLM-powered features into production, building software products from scratch and [researching things for no good reason](https://www.youtube.com/watch?v=lmTmGLzPVyM).
 
-Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog - mostly about AI progress, shipping AI features in production, and founder lessons - and shit-post on [X](https://x.com/AkashTandon). Some of my older pieces can be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram. These days I read a lot of philosophy when I'm not running long distances or in the gym.
+Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog - mostly about AI progress, shipping AI features in production, and founder lessons - and shit-post on [X](https://x.com/AkashTandon). Some of my older pieces can be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram. These days I try to read a lot when I'm not running long distances or in the gym.
+
+I've also co-authored [Advanced Analytics with PySpark](https://www.oreilly.com/library/view/advanced-analytics-with/9781098103644/) (O'Reilly), a practitioner's guide to building large-scale machine learning and analytics pipelines with Apache Spark.
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
