@@ -1,1 +1,51 @@
 // You can add CSS rules here that will be inlucded in Hydejack's CSS file
+
+.project-grid {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project-card {
+  border: 1px solid rgba(127, 127, 127, 0.3);
+  border-left: 4px solid var(--accent-color, rgb(79, 177, 186));
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  background: rgba(127, 127, 127, 0.04);
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    border-color: var(--accent-color, rgb(79, 177, 186));
+    transform: translateY(-2px);
+  }
+}
+
+.project-card__title {
+  font-size: 1.1rem;
+  margin: 0 0 0.4rem;
+  line-height: 1.3;
+}
+
+.project-card__desc {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
+.project-card__links {
+  margin: 0;
+  font-size: 0.9rem;
+
+  a + a {
+    margin-left: 1rem;
+  }
+}

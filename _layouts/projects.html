@@ -1,0 +1,34 @@
+---
+layout: base
+---
+
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+
+  {{ content }}
+
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  <ul class="project-grid">
+    {% for project in projects %}
+      {% assign is_github = project.link | slice: 0, 19 | downcase %}
+      {% if is_github == 'https://github.com/' %}
+        {% assign primary_label = 'Code' %}
+      {% else %}
+        {% assign primary_label = 'Visit' %}
+      {% endif %}
+      <li class="project-card">
+        <h2 class="project-card__title">{{ project.title }}</h2>
+        <p class="project-card__desc">{{ project.description }}</p>
+        <p class="project-card__links">
+          <a href="{{ project.link }}" rel="noopener">{{ primary_label }} &rarr;</a>
+          {% if project.code and primary_label != 'Code' %}
+            <a href="{{ project.code }}" rel="noopener">Code</a>
+          {% endif %}
+        </p>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

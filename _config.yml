@@ -50,7 +50,9 @@ menu:
   - title:             About
     url:               /about/
   - title:             Blog
-    url:               /    
+    url:               /
+  - title:             Tinkering
+    url:               /projects/
   - title:             Old blog
     url:               https://techandmortals.wordpress.com
   - title:             Contact me
@@ -229,7 +231,7 @@ collections:
 
   projects:
     permalink:         /projects/:path/
-    output:            true
+    output:            false
 
 
 # File inclusion/exclusion
