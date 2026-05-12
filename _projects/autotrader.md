@@ -1,6 +1,6 @@
 ---
 title: Autotrader
-date: 2024-04-01
-description: An experimental browser-based trading sandbox.
+date: 2026-05-08
+description: An autonomous paper trading agent.
 link: https://www.akashtandon.in/autotrader/
 ---
