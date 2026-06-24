@@ -3,7 +3,7 @@ layout:     post
 title:      Debugging in the age of agents
 comments:   true
 description: >
-  Coding agents can hand you a confident, detailed, and wrong debugging explanation backed by persuasive evidence. Why the craft of debugging - building hypotheses, gathering evidence, and knowing a system's invariants - matters more than ever.
+  Coding agents can hand you a confident, detailed, and wrong explanation backed by persuasive evidence. The craft of debugging - building hypotheses, gathering evidence, and knowing a system's internals - matters as much as ever.
 categories: [ai]
 ---
 
@@ -32,7 +32,7 @@ Scaffolding around agents can help: a structured review process, good context re
 
 This lesson matters even more for those new to software development. Agents can confidently develop theories and at times lose confidence about their own results in the face of questioning as well.  If developers rely heavily on agents without developing enough muscle for understanding code and failure modes, they may [not be](https://larsfaye.com/articles/agentic-coding-is-a-trap) [prepared](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down) to judge an agent’s output in critical situations.
 
-So how does one get better at debugging? I don’t think there is a repetitive formula but here are some pointers that can help.
+So how does one get better at debugging? I don’t think there is a repeatable formula but here are some pointers that can help.
 
 * First, develop a habit of starting from the symptom and working backwards. Articulate the failure. Identify the starting point and recent changes. Track parts of the system that may be responsible.  
 * Second, make your hypotheses explicit. Don’t just say “maybe it’s the cache” or “maybe the query is wrong.” Write down what would have to be true for that explanation to work, and then look for evidence that confirms or falsifies it.  
