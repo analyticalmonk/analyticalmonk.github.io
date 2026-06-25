@@ -17,9 +17,9 @@ The question feels more important to me now as coding agents have taken off. It 
 
 Effective debugging is a mix of hypothesis construction, evidence gathering and rigorous examination. Sometimes the answer can be handed to you on a platter by your observability stack, logs or an agent, but often it requires a mix of intuition and skillful decision making.
 
-I love coding agents and I'm bullish on AI for knowledge work. But there is a particular type of failure I have run into over the last few months when debugging a reasonably large pre-LLM codebase. An agent can produce a confident, detailed, and wrong explanation. This wrong answer can be accompanied with rigorous-looking and persuasive evidence.
+I love coding agents and I'm bullish on AI for knowledge work. But there is a particular type of failure I have run into over the last few months when debugging a reasonably large pre-LLM codebase. An agent can produce a confident, detailed, and wrong explanation. This wrong answer can be accompanied with strong evidence.
 
-For example, recently a coding agent attributed a failure I was investigating to a relatively recent code change even though the relevant behavior predated the diff. Another time, the agent’s proposed explanation could not have occurred because of the application’s schema.
+For example, I was investigating a failure, and a coding agent blamed it on a recent code change, even though the behaviour had existed before the diff. Another time, the agent’s proposed explanation could not have occurred because of the application’s schema.
 
 The defense against such agent-side failures is the same discipline good engineers already apply. When something looks like a regression, questions worth asking are:
 
@@ -42,4 +42,4 @@ So how does one get better at debugging? I don’t think there is a repeatable f
 Yes, you should have test suites, observability and great contextual retrieval pipelines for agents. But production codebases, old or new, aren’t perfect. They have their quirks, technical debt and aren’t being overhauled overnight.  
 That is why the craft of debugging remains important. As someone building software, you should actively nurture it.
 
-*Thanks to [Ashutosh](https://www.linkedin.com/in/mittalashutosh/) and [Raghav](https://x.com/raghavio) for reading the draft of this.* 
+*Thanks to [Ankita](https://www.linkedin.com/in/ankitamathur10/), [Ashutosh](https://www.linkedin.com/in/mittalashutosh/) and [Raghav](https://x.com/raghavio) for reading the draft of this.*
