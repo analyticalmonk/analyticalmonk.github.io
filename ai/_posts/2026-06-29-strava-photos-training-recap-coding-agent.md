@@ -1,7 +1,8 @@
 ---
 layout:     post
-title:      Turning Strava photos into a training recap with my coding agent
+title:      Turning Strava data and gym photos into a training recap with my coding agent
 comments:   true
+image:      /assets/img/strava_infographic_post_header.png
 description: >
   Strava’s metrics alone couldn’t tell the story of my training, because important context lived in photos of my gym’s whiteboard. Here’s how I combined Strava data with a coding agent’s vision layer to build a half-year-in-review infographic.
 categories: [ai]
