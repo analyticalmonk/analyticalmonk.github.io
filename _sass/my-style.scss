@@ -53,3 +53,42 @@
     margin-left: 1rem;
   }
 }
+
+// Collapse the sidebar while reading a post
+// ----------------------------------------------------------------------------
+// Hydejack's desktop sidebar is not a separate element: it is the drawer
+// peeking $sidebar-width in from the left edge, and the hamburger slides it the
+// rest of the way open. On a post we push that peek off-screen entirely, so the
+// article gets the whole window and the nav stays one click away.
+//
+// Only posts are affected. `#_main` carries a `layout-<name>` class and
+// hy-push-state swaps the whole element on every client-side navigation, so
+// `:has()` follows the current page with no JavaScript. Browsers without
+// `:has()` just keep the sidebar everywhere, which is today's behaviour.
+
+@media screen and (min-width: 64em) {
+  // The panel rests at `left: -(slide-width)` and the JS slides it by
+  // `width - 21rem` (that 21rem is hardcoded in the theme's JS). Making the
+  // panel one $sidebar-width wider than the viewport, and sliding it by the
+  // same amount, puts it fully off-screen when closed and flush across the
+  // window when open - with no state-dependent switch, so it does not pop.
+  body:has(#_main.layout-post) hy-drawer {
+    --hy-drawer-width: calc(100% + #{$sidebar-width});
+    --hy-drawer-slide-width: calc(100% + #{$sidebar-width});
+  }
+
+  // The JS centres #_sidebar for a viewport-width panel; correct for the extra.
+  body:has(#_main.layout-post) #_sidebar {
+    transform: unquote("translateX(calc(#{$sidebar-width} / 2))") !important;
+  }
+
+  // body::before paints a $sidebar-width strip behind the sidebar.
+  body:has(#_main.layout-post)::before {
+    width: .5rem;
+  }
+
+  body:has(#_main.layout-post) .content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
