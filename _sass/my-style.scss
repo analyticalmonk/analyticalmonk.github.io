@@ -91,4 +91,20 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  // break-layout widens code blocks and tables by measuring against the
+  // sidebar, so with the sidebar gone they bleed to the right only. Give them a
+  // symmetric bleed around the centred column instead.
+  body:has(#_main.layout-post) {
+    pre,
+    table:not(.highlight),
+    .katex-display,
+    .break-layout {
+      // These already sit at the column's border edge, so `100%` is the content
+      // box: add the column's own padding back before adding the bleed.
+      $bleed: $content-padding + $content-margin-5;
+      width: calc(100% + #{2 * $content-padding + 2 * $bleed});
+      left: -$bleed;
+    }
+  }
 }
