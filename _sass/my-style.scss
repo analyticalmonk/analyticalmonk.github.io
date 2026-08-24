@@ -71,8 +71,22 @@
   // $sidebar-width below 1666px and from `50% - 28rem` above it, and its JS
   // repeats both constants; matching that by hand means duplicating them a
   // third time and getting the opened nav wrong at some widths. Instead the
-  // sidebar itself is moved out of the peek, which leaves the opened nav
-  // exactly as the theme draws it at every width.
+  // sidebar simply slides out of the peek, which leaves the opened nav exactly
+  // as the theme draws it at every width - and, unlike moving the drawer,
+  // animates.
+  // Cross-fade rather than slide: the sidebar spans the whole panel, so
+  // translating it travels a windowful and reads as a whip. Fading in place and
+  // moving it only once it is invisible keeps the change calm in both
+  // directions - hence the delayed transform on the way out, and the instant
+  // one on the way back in.
+  #_sidebar {
+    transition: opacity .2s ease, transform 0s;
+  }
+
+  body::before {
+    transition: width .2s ease;
+  }
+
   body:has(#_main.layout-post) hy-drawer:not([opened]) {
     // The panel paints its own background and shadow behind the sidebar - the
     // shadow otherwise leaves a hairline down the page where its edge falls -
@@ -83,8 +97,17 @@
     pointer-events: none;
 
     #_sidebar {
+      transition: opacity .2s ease, transform 0s linear .2s;
       transform: translateX(-100%) !important;
       opacity: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #_sidebar,
+    body::before,
+    body:has(#_main.layout-post) hy-drawer:not([opened]) #_sidebar {
+      transition: none;
     }
   }
 
