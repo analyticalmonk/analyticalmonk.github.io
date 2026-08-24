@@ -37,6 +37,31 @@
 })();
 </script>
 
+<script>
+// Open the sidebar's outbound links in a new tab.
+//
+// Neither the theme's nav.html nor its social-list-item.html takes a `target`,
+// and overriding both to add one would fork live theme markup for two
+// attributes, so set them here instead. The sidebar sits outside #_main, which
+// is the only thing hy-push-state replaces, so once at load is enough.
+(function () {
+  var links = document.querySelectorAll('#_sidebar a[href]');
+
+  Array.prototype.forEach.call(links, function (a) {
+    // mailto: would hand over to the mail client and strand an empty tab.
+    if (a.protocol !== 'http:' && a.protocol !== 'https:') return;
+
+    // Social icons all lead off the site, except the feed, which is only
+    // same-origin once the site is served from its real domain - so treat the
+    // whole row as outbound rather than letting it differ between dev and live.
+    if (a.host === location.host && !a.closest('.sidebar-social')) return;
+
+    a.target = '_blank';
+    a.rel = a.rel ? a.rel + ' noopener' : 'noopener';
+  });
+})();
+</script>
+
 {% comment %}<!--
 Use this add elements to the <body/> of the document.
 -->{% endcomment %}
