@@ -87,7 +87,10 @@
     transition: width .2s ease;
   }
 
-  body:has(#_main.layout-post) hy-drawer:not([opened]) {
+  // `.drawer-nav` marks a navigation that started from the opened nav; while it
+  // is set the sidebar stays put, so leaving a post closes the nav down into
+  // the sidebar instead of blinking it away and back. See `_includes/my-body.html`.
+  html:not(.drawer-nav) body:has(#_main.layout-post) hy-drawer:not([opened]) {
     // The panel paints its own background and shadow behind the sidebar - the
     // shadow otherwise leaves a hairline down the page where its edge falls -
     // and it still spans the peek once the sidebar is invisible, so it would
@@ -106,7 +109,7 @@
   @media (prefers-reduced-motion: reduce) {
     #_sidebar,
     body::before,
-    body:has(#_main.layout-post) hy-drawer:not([opened]) #_sidebar {
+    html:not(.drawer-nav) body:has(#_main.layout-post) hy-drawer:not([opened]) #_sidebar {
       transition: none;
     }
   }
