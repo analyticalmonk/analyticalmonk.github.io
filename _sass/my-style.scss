@@ -67,19 +67,25 @@
 // `:has()` just keep the sidebar everywhere, which is today's behaviour.
 
 @media screen and (min-width: 64em) {
-  // The panel rests at `left: -(slide-width)` and the JS slides it by
-  // `width - 21rem` (that 21rem is hardcoded in the theme's JS). Making the
-  // panel one $sidebar-width wider than the viewport, and sliding it by the
-  // same amount, puts it fully off-screen when closed and flush across the
-  // window when open - with no state-dependent switch, so it does not pop.
-  body:has(#_main.layout-post) hy-drawer {
-    --hy-drawer-width: calc(100% + #{$sidebar-width});
-    --hy-drawer-slide-width: calc(100% + #{$sidebar-width});
-  }
+  // Leave the drawer's own geometry alone. The theme sizes the peek from
+  // $sidebar-width below 1666px and from `50% - 28rem` above it, and its JS
+  // repeats both constants; matching that by hand means duplicating them a
+  // third time and getting the opened nav wrong at some widths. Instead the
+  // sidebar itself is moved out of the peek, which leaves the opened nav
+  // exactly as the theme draws it at every width.
+  body:has(#_main.layout-post) hy-drawer:not([opened]) {
+    // The panel paints its own background and shadow behind the sidebar - the
+    // shadow otherwise leaves a hairline down the page where its edge falls -
+    // and it still spans the peek once the sidebar is invisible, so it would
+    // keep catching clicks over the left of the article.
+    --hy-drawer-background: transparent;
+    --hy-drawer-box-shadow: none;
+    pointer-events: none;
 
-  // The JS centres #_sidebar for a viewport-width panel; correct for the extra.
-  body:has(#_main.layout-post) #_sidebar {
-    transform: unquote("translateX(calc(#{$sidebar-width} / 2))") !important;
+    #_sidebar {
+      transform: translateX(-100%) !important;
+      opacity: 0;
+    }
   }
 
   // body::before paints a $sidebar-width strip behind the sidebar.
