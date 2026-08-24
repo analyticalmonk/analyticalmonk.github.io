@@ -3,19 +3,25 @@
         async src="//gc.zgo.at/count.js"></script>
 
 <script>
-// Leaving a post from the opened nav.
-//
-// The sidebar is collapsed on posts by a CSS rule keyed on #_main's
-// layout-post class. hy-push-state closes the drawer the moment you click a
-// nav link but only swaps #_main when the new page arrives, so for the length
-// of that fetch the drawer is shut while the page still counts as a post - and
-// the rule would yank the sidebar off screen, then hand it straight back once
-// the destination turned out to have one.
-//
-// Whether the drawer was open when a navigation began is the one fact the DOM
-// does not record, so mark it here and let the rule hold off until the
-// destination is known. Then the nav closes down into the sidebar, or fades out
-// if the next page is another post.
+/*
+  Leaving a post from the opened nav.
+
+  The sidebar is collapsed on posts by a CSS rule keyed on #_main's layout-post
+  class. hy-push-state closes the drawer the moment you click a nav link but
+  only swaps #_main when the new page arrives, so for the length of that fetch
+  the drawer is shut while the page still counts as a post - and the rule would
+  yank the sidebar off screen, then hand it straight back once the destination
+  turned out to have one.
+
+  Whether the drawer was open when a navigation began is the one fact the DOM
+  does not record, so mark it here and let the rule hold off until the
+  destination is known. Then the nav closes down into the sidebar, or fades out
+  if the next page is another post.
+
+  NOTE: block comments only, and terminate every statement. `compress_html`
+  collapses this file's newlines in production, which turns a `//` comment into
+  a comment over the rest of the script.
+*/
 (function () {
   var root = document.documentElement;
 
@@ -23,11 +29,13 @@
     root.classList.remove('drawer-nav');
   }
 
-  // These fire without `bubbles`, so they are only observable on the capture
-  // phase. `start` runs before the theme closes the drawer, so _drawer still
-  // reports whether the nav was open when the click landed - and it fires only
-  // for navigations hy-push-state actually takes, so every one of them ends in
-  // one of the events below.
+  /*
+    These fire without `bubbles`, so they are only observable on the capture
+    phase. `start` runs before the theme closes the drawer, so _drawer still
+    reports whether the nav was open when the click landed - and it fires only
+    for navigations hy-push-state actually takes, so every one of them ends in
+    one of the events below.
+  */
   document.addEventListener('hy-push-state-start', function () {
     if (window._drawer && window._drawer.opened) root.classList.add('drawer-nav');
   }, true);
@@ -38,22 +46,28 @@
 </script>
 
 <script>
-// Open the sidebar's outbound links in a new tab.
-//
-// Neither the theme's nav.html nor its social-list-item.html takes a `target`,
-// and overriding both to add one would fork live theme markup for two
-// attributes, so set them here instead. The sidebar sits outside #_main, which
-// is the only thing hy-push-state replaces, so once at load is enough.
+/*
+  Open the sidebar's outbound links in a new tab.
+
+  Neither the theme's nav.html nor its social-list-item.html takes a `target`,
+  and overriding both to add one would fork live theme markup for two
+  attributes, so set them here instead. The sidebar sits outside #_main, which
+  is the only thing hy-push-state replaces, so once at load is enough.
+
+  Block comments only - see the note above.
+*/
 (function () {
   var links = document.querySelectorAll('#_sidebar a[href]');
 
   Array.prototype.forEach.call(links, function (a) {
-    // mailto: would hand over to the mail client and strand an empty tab.
+    /* mailto: would hand over to the mail client and strand an empty tab. */
     if (a.protocol !== 'http:' && a.protocol !== 'https:') return;
 
-    // Social icons all lead off the site, except the feed, which is only
-    // same-origin once the site is served from its real domain - so treat the
-    // whole row as outbound rather than letting it differ between dev and live.
+    /*
+      Social icons all lead off the site, except the feed, which is only
+      same-origin once the site is served from its real domain - so treat the
+      whole row as outbound rather than letting it differ between dev and live.
+    */
     if (a.host === location.host && !a.closest('.sidebar-social')) return;
 
     a.target = '_blank';
