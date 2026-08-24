@@ -58,38 +58,46 @@
 // ----------------------------------------------------------------------------
 // Hydejack's desktop sidebar is not a separate element: it is the drawer
 // peeking $sidebar-width in from the left edge, and the hamburger slides it the
-// rest of the way open. On a post we push that peek off-screen entirely, so the
+// rest of the way open. On a post the sidebar is moved out of that peek, so the
 // article gets the whole window and the nav stays one click away.
+//
+// The drawer's own geometry is deliberately left alone, so the opened nav is
+// exactly what the theme draws at every width. The theme sizes the peek two
+// different ways either side of 1666px and its JS repeats both constants;
+// matching that by hand would mean duplicating them a third time.
 //
 // Only posts are affected. `#_main` carries a `layout-<name>` class and
 // hy-push-state swaps the whole element on every client-side navigation, so
-// `:has()` follows the current page with no JavaScript. Browsers without
-// `:has()` just keep the sidebar everywhere, which is today's behaviour.
+// `:has()` follows the current page. Browsers without `:has()` keep the sidebar
+// everywhere, which is today's behaviour. The one thing CSS cannot see is
+// whether a navigation began from the opened nav - `_includes/my-body.html`
+// marks that with `.drawer-nav`.
 
-@media screen and (min-width: 64em) {
-  // Leave the drawer's own geometry alone. The theme sizes the peek from
-  // $sidebar-width below 1666px and from `50% - 28rem` above it, and its JS
-  // repeats both constants; matching that by hand means duplicating them a
-  // third time and getting the opened nav wrong at some widths. Instead the
-  // sidebar simply slides out of the peek, which leaves the opened nav exactly
-  // as the theme draws it at every width - and, unlike moving the drawer,
-  // animates.
+$sidebar-fade: .2s;
+
+@media screen and (min-width: $break-point-3) {
   // Cross-fade rather than slide: the sidebar spans the whole panel, so
   // translating it travels a windowful and reads as a whip. Fading in place and
   // moving it only once it is invisible keeps the change calm in both
-  // directions - hence the delayed transform on the way out, and the instant
-  // one on the way back in.
+  // directions.
   #_sidebar {
-    transition: opacity .2s ease, transform 0s;
+    transition: opacity $sidebar-fade ease, transform 0s;
   }
 
   body::before {
-    transition: width .2s ease;
+    transition: width $sidebar-fade ease;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #_sidebar,
+    body::before {
+      transition: none !important;
+    }
   }
 
   // `.drawer-nav` marks a navigation that started from the opened nav; while it
   // is set the sidebar stays put, so leaving a post closes the nav down into
-  // the sidebar instead of blinking it away and back. See `_includes/my-body.html`.
+  // the sidebar instead of blinking it away and back.
   html:not(.drawer-nav) body:has(#_main.layout-post) hy-drawer:not([opened]) {
     // The panel paints its own background and shadow behind the sidebar - the
     // shadow otherwise leaves a hairline down the page where its edge falls -
@@ -99,35 +107,31 @@
     --hy-drawer-box-shadow: none;
     pointer-events: none;
 
+    // Hold the move back until the fade has finished, so nothing travels across
+    // the window; on the way in the delay is gone and it reappears in place.
     #_sidebar {
-      transition: opacity .2s ease, transform 0s linear .2s;
+      transition-delay: 0s, $sidebar-fade;
       transform: translateX(-100%) !important;
       opacity: 0;
     }
   }
 
-  @media (prefers-reduced-motion: reduce) {
-    #_sidebar,
-    body::before,
-    html:not(.drawer-nav) body:has(#_main.layout-post) hy-drawer:not([opened]) #_sidebar {
-      transition: none;
-    }
-  }
-
-  // body::before paints a $sidebar-width strip behind the sidebar.
-  body:has(#_main.layout-post)::before {
-    width: .5rem;
-  }
-
-  body:has(#_main.layout-post) .content {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  // break-layout widens code blocks and tables by measuring against the
-  // sidebar, so with the sidebar gone they bleed to the right only. Give them a
-  // symmetric bleed around the centred column instead.
   body:has(#_main.layout-post) {
+    // body::before paints a $sidebar-width strip behind the sidebar.
+    &::before {
+      width: .5rem;
+    }
+
+    // Undo the theme's $break-point-3 / $break-point-5 margins, back to
+    // .content's own base value, so the article centres in the window.
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    // break-layout widens code blocks and tables by measuring against the
+    // sidebar, so with the sidebar gone they bleed to the right only. Give them
+    // a symmetric bleed around the centred column instead.
     pre,
     table:not(.highlight),
     .katex-display,

@@ -12,33 +12,28 @@
 // the rule would yank the sidebar off screen, then hand it straight back once
 // the destination turned out to have one.
 //
-// Whether the drawer was open when a navigation began is not written anywhere
-// in the DOM, so mark it here and let the rule hold off until the destination
-// is known. Then the nav simply closes down into the sidebar, or fades out if
-// the next page is another post.
+// Whether the drawer was open when a navigation began is the one fact the DOM
+// does not record, so mark it here and let the rule hold off until the
+// destination is known. Then the nav closes down into the sidebar, or fades out
+// if the next page is another post.
 (function () {
   var root = document.documentElement;
-  var timer;
 
   function clear() {
-    clearTimeout(timer);
     root.classList.remove('drawer-nav');
   }
 
-  document.addEventListener('click', function (e) {
-    if (!e.target.closest) return;
-    var a = e.target.closest('#_sidebar a[href]');
-    // Anything that leaves the site is a full page load; the class would
-    // outlive the navigation and keep the sidebar on posts for good.
-    if (!a || a.origin !== location.origin) return;
-    root.classList.add('drawer-nav');
-    clearTimeout(timer);
-    timer = setTimeout(clear, 3000);
+  // These fire without `bubbles`, so they are only observable on the capture
+  // phase. `start` runs before the theme closes the drawer, so _drawer still
+  // reports whether the nav was open when the click landed - and it fires only
+  // for navigations hy-push-state actually takes, so every one of them ends in
+  // one of the events below.
+  document.addEventListener('hy-push-state-start', function () {
+    if (window._drawer && window._drawer.opened) root.classList.add('drawer-nav');
   }, true);
 
-  ['hy-push-state-after', 'hy-push-state-networkerror'].forEach(function (name) {
-    document.addEventListener(name, clear, true);
-  });
+  ['hy-push-state-after', 'hy-push-state-error', 'hy-push-state-networkerror']
+    .forEach(function (name) { document.addEventListener(name, clear, true); });
 })();
 </script>
 
