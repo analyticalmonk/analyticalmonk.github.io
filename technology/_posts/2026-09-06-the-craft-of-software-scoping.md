@@ -16,7 +16,7 @@ As an engineer or a product lead, you have been asked:
 
 These questions touch on different aspects of [risks](https://www.svpg.com/four-big-risks/) (value, usability, feasibility, viability) that come up when building any product. If you have been building software long enough, you realize the importance of these questions. Scoping is one way to answer them well.
 
-AI has made software dramatically faster to build but that doesn't remove the need for judgment. If anything, this makes good scoping, i.e. deciding what and how to build, more important. Before getting into the principles for scoping well, let me clarify what I mean by the term.
+AI can make software development dramatically faster but that doesn't remove the need for judgment. If anything, this makes good scoping, i.e. deciding what and how to build, more important. Before getting into the principles for scoping well, let me clarify what I mean by the term.
 
 ## Scoping, not estimation
 
