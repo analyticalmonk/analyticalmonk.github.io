@@ -33,13 +33,19 @@ I built and led the team behind it. My work sat where LLMs, product and customer
 Before Looppanel, I was part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. Before that, I worked as a technology consultant with a consulting firm called Restat, where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://github.com/TallyAssist/TallyAssist) for small businesses.
 
 
-I am a sucker for treks and backpacking trips. Here's a photograph I clicked after an exhilarating trek to [Chandrashila](https://en.wikipedia.org/wiki/Chandrashila) peak in Uttarakhand, India.
+I am a sucker for treks and backpacking trips.
+
+Here's a click from a hike along the chalk cliffs at [Etretat](https://en.wikipedia.org/wiki/%C3%89tretat) on the Normandy coast in France.
+
+![etretat_cliffs](/assets/img/cliff_etretat.jpg)
+
+And here's a photograph I clicked after an exhilarating trek to [Chandrashila](https://en.wikipedia.org/wiki/Chandrashila) peak in Uttarakhand, India.
 
 ![chandrashila_peak](/assets/img/chandrashila_peak.jpg)
 
 
 I graduated from [National Institute of Technology, Surat](http://www.svnit.ac.in/) in 2016. During my time there, I successfully completed the [Google Summer of Code](https://summerofcode.withgoogle.com/) program twice. I still contribute to [open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) whenever possible. Some of my projects can be found on [Github](https://github.com/analyticalmonk).  
-I also used to be a lot at conferences before starting up, occassionally blabbering on stage. This peculiar behaviour can also be traced back to my college days.
+I also used to be a lot at conferences before starting up, occassionally blabbering on stage. This peculiar behaviour can also be traced back to my college days. The photograph below is from [PyCon Italy](https://www.pycon.it/) a few years back.
 
 ![pycon_italy_talk](/assets/img/pycon_italy_talk.jpg)
 
