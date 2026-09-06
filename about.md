@@ -22,9 +22,13 @@ I think a lot about a lot of things and try not to [think at all](https://www.he
 
 Before being enamored by technology, I'd aspired to be a full-time writer. I continue to write on this blog - mostly about AI progress, shipping AI features in production, and founder lessons - and shit-post on [X](https://x.com/AkashTandon). Some of my older pieces can be found on [Tech and Mortals](https://techandmortals.wordpress.com/) and my Instagram. These days I try to [read](https://www.goodreads.com/user/show/18318570-akash) a lot when I'm not running long distances or in the gym.
 
+<p style="text-align: center;">
+  <img src="/assets/img/hyfit_finish.jpg" alt="hyfit_finish" style="width: 100%; max-width: 380px;" />
+</p>
+
 I've also co-authored [Advanced Analytics with PySpark](https://www.oreilly.com/library/view/advanced-analytics-with/9781098103644/) (O'Reilly), a practitioner's guide to building large-scale machine learning and analytics pipelines with Apache Spark.
 
-![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
+![pyspark_book](/assets/img/pyspark_book_polish.jpg)
 
 I was the co-founder and CTO of [Looppanel](https://looppanel.com) (since acquired), an AI-native UX research analysis platform used by enterprise teams across the US, Europe and India. We helped product and design teams turn unstructured research data - interview recordings, transcripts, surveys, documents - into structured, actionable insights.
 
@@ -43,6 +47,12 @@ And here's a photograph I clicked after an exhilarating trek to [Chandrashila](h
 
 ![chandrashila_peak](/assets/img/chandrashila_peak.jpg)
 
+I also love a good cup of coffee - drinking it as well as making it.
+
+<p style="text-align: center;">
+  <img src="/assets/img/coffee_truebrew.jpg" alt="coffee_truebrew" style="width: 100%; max-width: 380px;" />
+</p>
+
 
 I graduated from [National Institute of Technology, Surat](http://www.svnit.ac.in/) in 2016. During my time there, I successfully completed the [Google Summer of Code](https://summerofcode.withgoogle.com/) program twice. I still contribute to [open source](https://en.wikipedia.org/wiki/Free_and_open-source_software) whenever possible. Some of my projects can be found on [Github](https://github.com/analyticalmonk).  
 I also used to be a lot at conferences before starting up, occassionally blabbering on stage. This peculiar behaviour can also be traced back to my college days. The photograph below is from [PyCon Italy](https://www.pycon.it/) a few years back.
@@ -57,4 +67,4 @@ I've been interested in entrepreneurship and startups for a long time now. Since
 
 - Until December 2019, I worked as a senior data engineer with [Atlan](https://atlan.com/). Here, I was part of the team working on the company's core offering, an on-premise enterprise data management, and governance platform.
 
-If you're building something ambitious and technically grounded - especially around AI systems, agent architectures or enterprise AI - I'd like to hear about it. Drop a line via [mail](mailto:akashtndn@gmail.com), [X](https://x.com/AkashTandon) or [LinkedIn](https://www.linkedin.com/in/akashtandon/).
+If you're building something ambitious and technically grounded - especially around AI infrastructure, RL environments or enterprise AI - I'd like to hear about it. Drop a line via [mail](mailto:akashtndn@gmail.com), [X](https://x.com/AkashTandon) or [LinkedIn](https://www.linkedin.com/in/akashtandon/).
