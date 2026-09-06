@@ -75,7 +75,7 @@ With AI agents, it has become ridiculously easy to build a minimal usable versio
 For example, a couple of years ago, instead of debating whether our users would want a natural language search, I built a crude version, put our own research data into it and asked our team to try it out. We were then able to build conviction, quickly iterate with internal feedback and finalize its scope in a few days.
 
 <p style="text-align: center;">
-  <img src="/assets/img/scoping-just-build-a-prototype.png" alt="Bell curve meme: the low and high ends both say &quot;Just build a prototype&quot; while the middle says &quot;Nooo you must first write a PRD, then make a design, then make tickets, then...&quot;" style="width: 100%; max-width: 368px;" />
+  <img src="/assets/img/scoping-just-build-a-prototype.jpeg" alt="Bell curve meme: the low and high ends both say &quot;Just build a prototype&quot; while the middle says &quot;Nooo you must first write a PRD, then make a design, then make tickets, then...&quot;" style="width: 100%; max-width: 675px;" />
 </p>
 
 ### 4. Address the unknown
@@ -97,7 +97,7 @@ If something is worth doing, you should decide how much time you are willing to 
 This need not be set in stone on day 1 either. As your understanding of the reasons, goals, and unknowns improve, you may improvise on either the scope or the timeline.
 
 <p style="text-align: center;">
-  <img src="/assets/img/xkcd-1425-tasks.png" alt="xkcd comic: a user asks for an app that checks whether a photo was taken in a national park (&quot;easy GIS lookup, a few hours&quot;) and whether the photo is of a bird (&quot;I'll need a research team and five years&quot;)" style="width: 100%; max-width: 221px;" />
+  <img src="/assets/img/xkcd-1425-tasks.png" alt="xkcd comic: a user asks for an app that checks whether a photo was taken in a national park (&quot;easy GIS lookup, a few hours&quot;) and whether the photo is of a bird (&quot;I'll need a research team and five years&quot;)" style="width: 100%; max-width: 267px;" />
   <br/>
   <em><a href="https://xkcd.com/1425/">xkcd #1425, "Tasks"</a></em>
 </p>
