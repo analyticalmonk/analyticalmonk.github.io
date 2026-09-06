@@ -44,11 +44,11 @@ Depending on the stage, culture and domain of your company, this can involve any
 
 For example, you may be asked to build integrations with Google Drive to ingest PDF/CSV as data sources for your customers in a month. This sounds like a straightforward integration task.
 
-But the real question is whether customers need a unified searchable repository or simply better access to their raw interview data. You should aim to understand:
+But the real question is whether customers need a unified searchable repository or simply better access to their raw files. You should aim to understand:
 
-* What building the feature will solve from a business point of view
+* what building the feature will solve from a business point of view
 * what triggered this requirement from an end user
-* where the timeline originated.
+* where the timeline originated
 
 The end goal can range from closing a couple of large enterprise deals to solving a repeated ask from customers dealing with a variety of data sources. Knowing the why will help you better define the scope of your solution.
 
@@ -64,7 +64,7 @@ Once you understand why something needs to be built, the next question is whethe
 
 Even if AI agents let you build a feature 10 times as easily, it may negatively affect an end-user's experience or increase your infrastructure cost. It can also waste all kinds of resources from your team that could've been put to better use elsewhere - tokens, focus, sales collateral, marketing budget.
 
-For example, a feature may take an AI agent a few hours to build but require significant infrastructure work to satisfy the same enterprise customer's requirement around data residency.
+For example, a feature may take an AI agent a few hours to build but require significant infrastructure work to satisfy an enterprise customer's requirement around data residency.
 
 There are many times when you should not hesitate or overthink. For example, at a pre-PMF startup, moving fast can give you a high alpha if you learn from a mistake. I am not talking about those situations as much because in my experience, builders are more prone to saying yes than no. 🙂
 
