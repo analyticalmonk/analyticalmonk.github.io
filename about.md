@@ -26,9 +26,9 @@ I've also co-authored [Advanced Analytics with PySpark](https://www.oreilly.com/
 
 ![profile_prez_image](/assets/img/sc_profile_demo_1.jpg)
 
-I'm the co-founder and CTO of [Looppanel](https://looppanel.com) (since acquired), an AI-native UX research analysis platform used by enterprise teams across the US, Europe and India. We help product and design teams turn unstructured research data - interview recordings, transcripts, surveys, documents - into structured, actionable insights.
+I was the co-founder and CTO of [Looppanel](https://looppanel.com) (since acquired), an AI-native UX research analysis platform used by enterprise teams across the US, Europe and India. We helped product and design teams turn unstructured research data - interview recordings, transcripts, surveys, documents - into structured, actionable insights.
 
-I built and lead the team behind it. My work sits where LLMs, product and customer-facing engineering meet: making model output reliable enough to make decisions on, designing retrieval and context systems for messy qualitative data, building evaluation loops for the failure modes we keep finding and balancing latency against cost and quality. On any given day the rest of it is hiring and mentoring engineers, sitting in on customer calls, or doing support, ops and finance. Startup life.
+I built and led the team behind it. My work sat where LLMs, product and customer-facing engineering met: making model output reliable enough to make decisions on, designing retrieval and context systems for messy qualitative data, building evaluation loops for the failure modes we kept finding and balancing latency against cost and quality. On any given day the rest of it was hiring and mentoring engineers, sitting in on customer calls, or doing support, ops and finance. Startup life.
 
 Before Looppanel, I was part of [Entrepreneur First](https://www.joinef.com/) Bangalore's second cohort of 2020. Before that, I worked as a technology consultant with a consulting firm called Restat, where I was a founding partner. We worked with a diverse set of clients including academics and small Indian businesses. We also developed an [invoicing and sales assistant app](https://github.com/TallyAssist/TallyAssist) for small businesses.
 
