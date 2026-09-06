@@ -26,7 +26,7 @@ Much has been written about the [failure to estimate](https://world.hey.com/dhh/
 
 ## Scoping principles
 
-Even though AI has made software development much faster, you still have limits. They can be in terms of tokens, mental bandwidth or infrastructure cost in addition to time. There is still no free lunch. In fact, as the cost of building falls, these constraints become more important.
+Despite advances in AI, you still have limits. They can be in terms of tokens, mental bandwidth or infrastructure cost in addition to time. There is still no free lunch. In fact, as the cost of building falls, these constraints become more important.
 
 Below, I am sharing pointers that helped me and my teams consistently deliver production software with limited resources and often with ambiguity.
 
