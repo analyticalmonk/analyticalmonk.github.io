@@ -118,3 +118,5 @@ You can build more than ever before. Good scoping helps you decide what to build
 * [How I estimate work](https://www.seangoedecke.com/how-i-estimate-work)
 * [Software estimates have never worked and never will](https://world.hey.com/dhh/software-estimates-have-never-worked-and-never-will-a41a9c71)
 * [Why software projects take longer than you think: a statistical model](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html)
+
+*Thanks to [Ankita](https://www.linkedin.com/in/ankitamathur10/), [Ashutosh](https://www.linkedin.com/in/mittalashutosh/) and [Aayush](https://www.linkedin.com/in/aayushsarva/) for reading the draft of this.*
