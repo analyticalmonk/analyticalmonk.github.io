@@ -3,7 +3,7 @@ layout:     post
 title:      The craft of software scoping
 comments:   true
 description: >
-  AI has made software dramatically faster to build but it hasn't removed the need for judgment. Here are some principles that helped me go from vague problem statements to precise solutions, often with limited resources and plenty of ambiguity.
+  AI has made software significantly faster to build but human judgment remains critical. Here are some principles that helped me go from vague problem statements to precise solutions, often with limited resources and plenty of ambiguity (aka startups).
 categories: [technology]
 ---
 
