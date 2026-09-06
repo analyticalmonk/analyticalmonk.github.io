@@ -30,11 +30,11 @@ Despite advances in AI, you still have limits. They can be in terms of tokens, m
 
 Below, I am sharing pointers that helped me and my teams consistently deliver production software with limited resources and often with ambiguity.
 
-* Understand the why
-* Sometimes, saying no is the right thing
-* Experience, don't just show or tell
-* Address the unknown
-* Start with a time budget, not the other way round
+* [Understand the why](#1-understand-the-why)
+* [Sometimes, saying no is the right thing](#2-sometimes-saying-no-is-the-right-thing)
+* [Experience, don't just show or tell](#3-experience-dont-just-show-or-tell)
+* [Address the unknown](#4-address-the-unknown)
+* [Start with a time budget, not the other way round](#5-start-with-a-time-budget-not-the-other-way-round)
 
 ### 1. Understand the why
 
