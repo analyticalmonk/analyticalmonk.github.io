@@ -3,7 +3,7 @@ layout:     post
 title:      The craft of software scoping
 comments:   true
 description: >
-  AI has made software dramatically faster to build, but it hasn't removed the need for judgment. Five principles that helped my teams go from a vague problem statement to a precise solution, with limited resources and plenty of ambiguity.
+  AI has made software dramatically faster to build but it hasn't removed the need for judgment. Here are some principles that helped me go from vague problem statements to precise solutions, often with limited resources and plenty of ambiguity.
 categories: [technology]
 ---
 
