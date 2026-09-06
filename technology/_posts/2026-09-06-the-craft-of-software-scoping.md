@@ -54,7 +54,7 @@ The end goal can range from closing a couple of large enterprise deals to solvin
 
 Sometimes, you need to build with incomplete information. In those cases, your scope can include the need to gather more information without putting in a large amount of resources.
 
-In most early stage startups, finding PMF is the single most important thing. To do that, sometimes you should just build that search feature. But your decision-making and implementation can be much better if you know why the search is needed at a particular date.
+In most early stage startups, finding PMF is the single most important thing. To do that, sometimes you should just build that feature. But your decision-making and implementation can be much better if you know why something is needed at a particular date.
 
 ### 2. Sometimes, saying no is the right thing
 
