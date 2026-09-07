@@ -2,6 +2,7 @@
 layout:     post
 title:      The craft of software scoping
 comments:   true
+image:      /assets/img/scoping_blog_cover_image.png
 description: >
   AI has made software significantly faster to build but human judgment remains critical. Here are some principles that helped me go from vague problem statements to precise solutions, often with limited resources and plenty of ambiguity (aka startups).
 categories: [technology]
