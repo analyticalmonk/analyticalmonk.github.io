@@ -6,6 +6,7 @@ image:      /assets/img/twilight_rooftop_overlooking_neon_city.jpg
 description: >
   Will software remain valuable? Will software development remain a valuable trade? What about software companies? These questions often get muddled up. Here is my attempt at looking at them separately.
 categories: [technology]
+redirect_from: /technology/2026-10-05-loose-opinions-on-software/
 ---
 
 There has been a lot of speculation about the future of software development and knowledge work recently. I have been a software developer for 10+ years and ran a venture-backed SaaS startup for 4+ years that got acquired. Naturally, I am trying to make sense of it all.
