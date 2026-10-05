@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Loose opinions on software, developers and companies
+title:      Abundant software, uncertain economics
 comments:   true
 image:      /assets/img/twilight_rooftop_overlooking_neon_city.jpg
 description: >
