@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Loose opinions on software - developer, craft and corporations
+title:      Loose opinions on software, developers and companies
 comments:   true
 image:      /assets/img/twilight_rooftop_overlooking_neon_city.jpg
 description: >
