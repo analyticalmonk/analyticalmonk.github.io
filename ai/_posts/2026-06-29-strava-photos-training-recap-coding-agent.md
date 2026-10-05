@@ -77,4 +77,4 @@ For me, the output was an infographic. For you, it could be a running year-in-re
 
 I may set up a personalized fitness agent with local models next. Meanwhile, if you build on top of this project or have a fitness/health-related agent workflow, I’ll love to hear about it!
 
-*Thanks to [Ankita](https://www.linkedin.com/in/ankitamathur10/) for reading the draft.*
+*Thanks to [Ankita](https://ankitamat.com/) for reading the draft.*

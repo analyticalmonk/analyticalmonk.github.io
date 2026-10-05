@@ -42,4 +42,4 @@ So how does one get better at debugging? I don’t think there is a repeatable f
 Yes, you should have test suites, observability and great contextual retrieval pipelines for agents. But production codebases, old or new, aren’t perfect. They have their quirks, technical debt and aren’t being overhauled overnight.  
 That is why the craft of debugging remains important. As someone building software, you should actively nurture it.
 
-*Thanks to [Ankita](https://www.linkedin.com/in/ankitamathur10/), [Ashutosh](https://www.linkedin.com/in/mittalashutosh/) and [Raghav](https://x.com/raghavio) for reading the draft of this.*
+*Thanks to [Ankita](https://ankitamat.com/), [Ashutosh](https://www.linkedin.com/in/mittalashutosh/) and [Raghav](https://x.com/raghavio) for reading the draft of this.*
