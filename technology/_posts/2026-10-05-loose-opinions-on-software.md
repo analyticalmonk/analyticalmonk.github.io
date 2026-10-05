@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Loose opinions on software artefacts, developers and companies
+title:      Loose opinions on software - developer, craft and corporations
 comments:   true
 description: >
   Will software remain valuable? Will software development remain a valuable trade? Will software companies? These questions often get muddled up. Here is my attempt at looking at them separately.
