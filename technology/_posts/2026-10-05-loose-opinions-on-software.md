@@ -61,4 +61,4 @@ If you are someone who loves software development, feel free to ignore the above
 
 Predictions regarding AI are as good as the roll of a dice at this point. However, a mental model is helpful as an individual. Feel free to poke holes in mine.
 
-*Thanks to [Ankita](https://www.linkedin.com/in/ankitamathur10/) for reading the draft.*
+*Thanks to [Ankita](https://ankitamat.com/) for reading the draft.*
